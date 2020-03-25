@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "CuOOra",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"valor",
+		"creacion",
+		"usuario"
+	],
+	"name" : "Calificacion",
+	"type" : "normal"
+}
