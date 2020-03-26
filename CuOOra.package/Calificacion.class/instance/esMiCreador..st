@@ -1,3 +1,3 @@
 as yet unclassified
 esMiCreador: unUsuario
-	^ usuario = unUsuario
+	^ usuario miNombre= unUsuario miNombre 

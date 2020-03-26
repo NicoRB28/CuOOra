@@ -1,4 +1,3 @@
 as yet unclassified
 miCreadorEs
-
-	^usuario.
+	^ usuario

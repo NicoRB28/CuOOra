@@ -1,3 +1,3 @@
 as yet unclassified
 meCreo: unUsuario
-	^ usuario == unUsuario
+	^ usuario miNombre  = unUsuario miNombre 

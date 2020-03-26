@@ -1,4 +1,3 @@
 as yet unclassified
-conUsuario: unUsuario 
-
-	usuario := unUsuario.
+conUsuario: unUsuario
+	usuario := unUsuario
