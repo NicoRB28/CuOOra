@@ -1,4 +1,3 @@
 as yet unclassified
 registrarRespuesta: unaRespuesta
-
-	respuestas add: unaRespuesta .
+	respuestas add: unaRespuesta

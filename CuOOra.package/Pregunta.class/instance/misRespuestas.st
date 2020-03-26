@@ -1,4 +1,3 @@
 as yet unclassified
 misRespuestas
-
-	^respuestas.
+	^ respuestas

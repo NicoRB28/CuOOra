@@ -1,4 +1,3 @@
 as yet unclassified
 misTopicos
-
-	^topicos.
+	^ topicos

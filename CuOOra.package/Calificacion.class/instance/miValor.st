@@ -1,4 +1,3 @@
 as yet unclassified
 miValor
-
-	^valor.
+	^ valor

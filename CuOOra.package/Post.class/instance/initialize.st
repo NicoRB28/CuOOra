@@ -1,6 +1,5 @@
 initialization
-initialize 
-
+initialize
 	creacion := DateAndTime now.
 	likes := OrderedCollection new.
-	dislikes := OrderedCollection new.
+	dislikes := OrderedCollection new

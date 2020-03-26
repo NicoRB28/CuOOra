@@ -1,4 +1,3 @@
 initialization
 registrarTopico: unTopico
-
-	topicos add: unTopico.
+	topicos add: unTopico

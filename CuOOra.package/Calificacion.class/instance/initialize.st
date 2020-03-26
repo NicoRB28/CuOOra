@@ -1,5 +1,4 @@
 initialization
-initialize 
-
+initialize
 	valor := 1.
-	creacion := DateAndTime now.	
+	creacion := DateAndTime now
