@@ -1,0 +1,4 @@
+accessing
+totalLikes
+
+	^likes size.

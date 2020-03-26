@@ -1,5 +1,5 @@
 initialization
 dislikePregunta: unaPregunta
 
-	unaPregunta registrarCalificacion: (Dislike  conUsuario: self).
+	unaPregunta registrarDisLike: (Calificacion  conUsuario: self).
 	

@@ -1,0 +1,4 @@
+accessing
+totalDislikes
+
+	^dislikes size.

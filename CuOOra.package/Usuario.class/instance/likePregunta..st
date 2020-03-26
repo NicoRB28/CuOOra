@@ -1,5 +1,5 @@
 initialization
 likePregunta: unaPregunta
 
-	unaPregunta registrarCalificacion: (Like conUsuario: self).
+	unaPregunta registrarLike: (Calificacion conUsuario: self).
 	
