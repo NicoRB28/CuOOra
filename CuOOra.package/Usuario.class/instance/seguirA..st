@@ -1,4 +1,3 @@
 initialization
 seguirA: unUsuario
-
-	seguidos add: unUsuario.
+	seguidos add: unUsuario
