@@ -1,4 +1,4 @@
-as yet unclassified
+creating
 agregarTopico: nombreTopico descripcion: unaDescripcion
 	| topico |
 	topico := Topico conNombre: nombreTopico descripcion: unaDescripcion.

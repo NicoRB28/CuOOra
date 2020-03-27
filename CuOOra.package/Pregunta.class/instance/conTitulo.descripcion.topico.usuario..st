@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 conTitulo: unTitulo descripcion: unaDescripcion topico: unTopico usuario: unUsuario
 	titulo := unTitulo.
 	descripcion := unaDescripcion.

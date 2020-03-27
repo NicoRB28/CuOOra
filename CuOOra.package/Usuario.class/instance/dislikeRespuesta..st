@@ -1,5 +1,3 @@
-initialization
+behavior
 dislikeRespuesta: unaRespuesta
-
-	unaRespuesta registrarDisLike: (Calificacion  conUsuario: self).
-	
+	unaRespuesta registrarDisLike: (Calificacion conUsuario: self)

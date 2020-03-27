@@ -1,4 +1,3 @@
 accessing
 totalLikes
-
-	^likes size.
+	^ likes size

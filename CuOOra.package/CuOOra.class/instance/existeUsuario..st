@@ -1,4 +1,3 @@
-as yet unclassified
+boolean
 existeUsuario: unUsuario
-
-	^usuarios includes: unUsuario .
+	^ usuarios includes: unUsuario

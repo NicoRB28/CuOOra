@@ -1,4 +1,4 @@
-as yet unclassified
+creating
 crearPregunta: unTitulo descripcion: unaDescripcion topico: unTopico usuario: unUsuario
 	| preg |
 	preg := Pregunta

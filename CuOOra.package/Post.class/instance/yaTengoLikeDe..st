@@ -1,4 +1,4 @@
-as yet unclassified
+boolean
 yaTengoLikeDe: unUsuario
 	likes
 		detect: [ :each | each esMiCreador: unUsuario ]

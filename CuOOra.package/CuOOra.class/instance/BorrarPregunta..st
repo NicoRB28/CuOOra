@@ -1,4 +1,4 @@
-as yet unclassified
+deleting
 BorrarPregunta: unaPregunta
 	(preguntas includes: unaPregunta)
 		ifTrue: [ | rtas |

@@ -1,3 +1,3 @@
-as yet unclassified
+behavior
 registrarRespuesta: unaRespuesta
 	respuestas add: unaRespuesta

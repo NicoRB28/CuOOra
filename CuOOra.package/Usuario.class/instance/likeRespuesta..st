@@ -1,5 +1,3 @@
-initialization
+behavior
 likeRespuesta: unaRespuesta
-
-	unaRespuesta  registrarLike: (Calificacion conUsuario: self).
-	
+	unaRespuesta registrarLike: (Calificacion conUsuario: self)

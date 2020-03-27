@@ -1,3 +1,3 @@
-as yet unclassified
+boolean
 meCreo: unUsuario
 	^ usuario miNombre  = unUsuario miNombre 

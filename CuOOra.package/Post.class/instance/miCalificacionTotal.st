@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 miCalificacionTotal
 	^(self misLikesTotales )-(self misDislikesTotales ).
