@@ -6,9 +6,15 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
+		"cuoora",
 		"usuario",
 		"usuario2",
-		"topico"
+		"topico",
+		"topicoL",
+		"preguntaPelicula",
+		"preguntaLibro",
+		"rta1",
+		"rta2"
 	],
 	"name" : "PreguntaTest",
 	"type" : "normal"

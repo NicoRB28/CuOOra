@@ -1,10 +1,10 @@
 creating
-crearPregunta: unTitulo descripcion: unaDescripcion topico: unTopico usuario: unUsuario
+crearPregunta: unTitulo descripcion: unaDescripcion topico: topics usuario: unUsuario
 	| preg |
-	preg := Pregunta
-		conTitulo: unTitulo
-		descripcion: unaDescripcion
-		topico: unTopico
+	preg := Pregunta 
+		conTitulo: unTitulo 
+		descripcion: unaDescripcion 
+		topico: topics 
 		usuario: unUsuario.
 	preguntas add: preg.
 	^ preg
