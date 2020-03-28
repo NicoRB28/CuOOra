@@ -2,5 +2,5 @@ initialization
 conTitulo: unTitulo descripcion: unaDescripcion topico: topics usuario: unUsuario
 	titulo := unTitulo.
 	descripcion := unaDescripcion.
-	topicos union: topics.
+	topicos add: topics.
 	usuario := unUsuario
