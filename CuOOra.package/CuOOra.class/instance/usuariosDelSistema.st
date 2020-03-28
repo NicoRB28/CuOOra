@@ -1,4 +1,0 @@
-tests
-usuariosDelSistema
-
-	^usuarios.
