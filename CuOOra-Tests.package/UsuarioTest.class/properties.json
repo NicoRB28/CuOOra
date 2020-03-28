@@ -7,11 +7,14 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"usuario",
+		"usuario2",
 		"pregunta",
 		"pregunta2",
+		"pregunta3",
 		"respuesta",
 		"topico1",
-		"topico2"
+		"topico2",
+		"topico3"
 	],
 	"name" : "UsuarioTest",
 	"type" : "normal"

@@ -1,5 +1,4 @@
 running
 setUpUsuario
-	"Hooks that subclasses may override to define the fixture of test."
-	
 	usuario := Usuario nombreUsuario: 'Apu' contraseña: 'Kwik-E-Market'.
+	usuario2 := Usuario nombreUsuario: 'DinoRawwr' contraseña: 'meteoro'
