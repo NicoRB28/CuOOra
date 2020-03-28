@@ -1,4 +1,0 @@
-tests
-preguntasDelSistema
-
-	^preguntas.
