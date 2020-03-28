@@ -5,7 +5,14 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"usuario",
+		"pregunta",
+		"pregunta2",
+		"respuesta",
+		"topico1",
+		"topico2"
+	],
 	"name" : "UsuarioTest",
 	"type" : "normal"
 }
