@@ -1,3 +1,3 @@
 boolean
 tengoTopico: unTopico
-	^ topicos includes: unTopico
+	^ topicos includes: unTopico.
