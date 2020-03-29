@@ -7,7 +7,9 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"usuario",
-		"rta"
+		"usuario2",
+		"rta",
+		"rta2"
 	],
 	"name" : "RespuestaTest",
 	"type" : "normal"

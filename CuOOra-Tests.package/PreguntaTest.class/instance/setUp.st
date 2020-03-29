@@ -10,11 +10,11 @@ setUp
 	topicoL add: topicoPreguntaLibro.
 	topico add: topicoPreguntaPelicula .
 	
-	preguntaLibro := Pregunta conTitulo: '¿recomendaciones de libros de Hesse?' descripcion:'lei un par de cuentos y es genial, recomienden'  topico: topicoL   usuario: usuario.
-	preguntaPelicula := Pregunta conTitulo: '¿peliculas para ver en cuarentena?' descripcion:'cuarentena time'  topico:topico   usuario: usuario2.
-	
 	usuario := Usuario nombreUsuario: 'Nicolas' contraseña: '2222'.
 	usuario2 := Usuario nombreUsuario: 'Homero' contraseña:'3333'. 
+	
+	preguntaLibro := Pregunta conTitulo: '¿recomendaciones de libros de Hesse?' descripcion:'lei un par de cuentos y es genial, recomienden'  topico: topicoL   usuario: usuario.
+	preguntaPelicula := Pregunta conTitulo: '¿peliculas para ver en cuarentena?' descripcion:'cuarentena time'  topico:topico   usuario: usuario2.
 	
 	rta1 := Respuesta conTexto: 'ninguna' yUsuario: usuario2.
 	rta2 := Respuesta conTexto: 'titanic' yUsuario: usuario.
