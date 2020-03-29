@@ -1,5 +1,5 @@
 tests
-testAgregarTopico
+testagregarTopicodescripcion
 
 	|cuoora topico |
 	
