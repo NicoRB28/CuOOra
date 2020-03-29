@@ -4,4 +4,4 @@ setUp
 
 	usuario := Usuario nombreUsuario: 'Pepe' contraseña: '1234'.
 	
-	rta := Respuesta conTexto: 'una respuesta a una pregunta' yUsuario: usuario.
+	rta := Respuesta new.
