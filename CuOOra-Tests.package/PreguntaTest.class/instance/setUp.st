@@ -1,7 +1,6 @@
 running
 setUp
 	"Hooks that subclasses may override to define the fixture of test."
-	|topicoPreguntaPelicula topicoPreguntaLibro|
 	topico:= OrderedCollection new.
 	topicoL  := OrderedCollection new.
 	cuoora := CuOOra new.

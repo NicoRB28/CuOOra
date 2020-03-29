@@ -6,6 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
+		"topicoPreguntaLibro",
+		"topicoPreguntaPelicula",
 		"cuoora",
 		"usuario",
 		"usuario2",
