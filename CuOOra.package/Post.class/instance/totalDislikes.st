@@ -1,3 +1,0 @@
-accessing
-totalDislikes
-	^ dislikes size
