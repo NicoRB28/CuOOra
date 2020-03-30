@@ -18,7 +18,15 @@
 		"pregunta2",
 		"respuestas",
 		"respuesta1",
-		"respuesta2"
+		"respuesta2",
+		"sistemaParaTestear",
+		"topicoSimpsons",
+		"bart",
+		"homero",
+		"apu",
+		"preguntaBart",
+		"respuestaApu",
+		"respuestaHomero"
 	],
 	"name" : "CuOOraTest",
 	"type" : "normal"
