@@ -1,0 +1,4 @@
+accessing
+nombre 
+
+	^usuario miNombre.
