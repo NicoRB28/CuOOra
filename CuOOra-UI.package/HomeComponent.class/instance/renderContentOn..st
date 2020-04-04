@@ -2,5 +2,4 @@ rendering
 renderContentOn: aCanvas
 
 
-	aCanvas paragraph:[
-		aCanvas text:'hola mundo']. 
+	aCanvas paragraph:[aCanvas text: 'Hola mundo']. 

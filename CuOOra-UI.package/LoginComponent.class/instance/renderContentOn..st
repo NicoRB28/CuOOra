@@ -16,8 +16,8 @@ renderContentOn: aCanvas
 							aCanvas textInput 
 							callback:[:contraseñaLogin | self contraseña: contraseñaLogin];
 							with: self contraseña].
-						aCanvas anchor 
+						aCanvas button 
 							callback: [ self validar ];
-							with: [aCanvas button:'Iniciar Sesion'].
+							with: [ aCanvas text:'Iniciar Sesion'].
 						]	
 		
