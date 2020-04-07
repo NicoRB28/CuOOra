@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"usuario"
+		"usuario",
+		"sistema"
 	],
 	"name" : "HomeComponent",
 	"type" : "normal"
