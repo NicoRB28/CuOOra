@@ -9,4 +9,4 @@ renderContentOn: aCanvas
 	level: 3;
 	with: usuario miNombre.
 	aCanvas horizontalRule. 
-	self renderPreguntasOn: aCanvas.
+	self renderPreguntasOn: aCanvas
