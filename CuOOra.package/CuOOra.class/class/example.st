@@ -15,7 +15,7 @@ apu := example crearUsuario: 'Apu' contraseña:'1234'.
 homero := example crearUsuario: 'Homero' contraseña:'1234'.
 marge:= example crearUsuario: 'Marge' contraseña:'1234'.
 
-example RegistrarTopico: tLibros  paraUsuario: lisa.
+example registrarTopico: tLibros  paraUsuario: lisa.
 
 example crearPregunta: 'libros para pasar la cuarentena' descripcion:'bla'  topico: coleccionTopicos   usuario: bart.
 example crearPregunta: 'libros sobre peste' descripcion:'ble'  topico:coleccionTopicos   usuario: homero.

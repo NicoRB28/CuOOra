@@ -17,7 +17,7 @@ respuestaApu := sistemaParaTestear crearRespuesta: 'pontes a leer un libros' usu
 respuestaHomero := sistemaParaTestear crearRespuesta: 'estudia' usuario:homero  pregunta:preguntaBart.
 self assert: ((sistemaParaTestear obtenerPreguntasRelevantes: bart)size ) equals:0. 
 self assert:((sistemaParaTestear obtenerPreguntasRelevantes: homero)size) equals:0.
-sistemaParaTestear RegistrarTopico: topicoSimpsons  paraUsuario: homero.
+sistemaParaTestear registrarTopico: topicoSimpsons  paraUsuario: homero.
 self assert: ((sistemaParaTestear obtenerPreguntasRelevantes: homero)size) equals: 1.
 self assert: ((sistemaParaTestear obtenerPreguntasRelevantes: homero)includes: preguntaBart) equals: true.
 self deny: ((sistemaParaTestear obtenerPreguntasRelevantes: bart)includes: pregunta1) equals: true.
