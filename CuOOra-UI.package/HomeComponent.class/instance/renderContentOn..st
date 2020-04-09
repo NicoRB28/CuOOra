@@ -1,12 +1,10 @@
 rendering
 renderContentOn: aCanvas
-	aCanvas 
-		heading 
+	aCanvas heading
 		level: 2;
 		with: 'CuOOra'.
 	aCanvas 
-	heading
-	level: 3;
-	with: usuario miNombre.
-	aCanvas horizontalRule. 
+		strong: usuario miNombre;
+		text: ' Log out';
+		horizontalRule.
 	self renderPreguntasOn: aCanvas
