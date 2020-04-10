@@ -1,5 +1,5 @@
 deleting
-BorrarPregunta: unaPregunta
+borrarPregunta: unaPregunta
 	(preguntas includes: unaPregunta)
 		ifTrue: [ | rtas |
 			rtas := self obtenerRespuestas: unaPregunta.
