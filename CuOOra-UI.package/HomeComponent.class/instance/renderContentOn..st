@@ -7,4 +7,8 @@ renderContentOn: aCanvas
 		strong: usuario miNombre;
 		text: ' Log out';
 		horizontalRule.
-	self renderPreguntasOn: aCanvas
+	aCanvas 
+		anchor 
+		callback: [ self nuevaPregunta ];
+		with: [ aCanvas text:'Hacer una nueva pregunta'].
+	self renderPreguntasOn: aCanvas.

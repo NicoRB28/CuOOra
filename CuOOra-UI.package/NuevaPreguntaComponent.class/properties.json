@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "WAComponent",
+	"category" : "CuOOra-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"usuario",
+		"sistema",
+		"titulo",
+		"desarrollo",
+		"topicos"
+	],
+	"name" : "NuevaPreguntaComponent",
+	"type" : "normal"
+}

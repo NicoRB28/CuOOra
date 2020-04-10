@@ -1,0 +1,4 @@
+accessing
+topicos
+
+	^topicos.
