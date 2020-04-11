@@ -1,6 +1,5 @@
 rendering
 renderContentOn: aCanvas
-
 	aCanvas 
 		heading 
 		level: 2;
@@ -13,7 +12,7 @@ renderContentOn: aCanvas
 							with: self nombre]. 
 						aCanvas 
 						paragraph: [ aCanvas label:'Contraseña: '. 
-							aCanvas textInput 
+							aCanvas textInput type: 'password'; 
 							callback:[:contraseñaLogin | self contraseña: contraseñaLogin];
 							with: self contraseña].
 						aCanvas button 
