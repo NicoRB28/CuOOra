@@ -1,4 +1,4 @@
 initialization
 conUsuario: unUsuario
 
-	^(self new) conUsuario: unUsuario .
+	^(self new initialize: unUsuario).

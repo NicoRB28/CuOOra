@@ -1,12 +1,7 @@
 rendering
 renderContentOn: aCanvas
-	aCanvas heading
-		level: 2;
-		with: 'CuOOra'.
-	aCanvas 
-		strong: usuario miNombre;
-		text: ' Log out';
-		horizontalRule.
+	aCanvas div
+	with: navBar.
 	aCanvas 
 		anchor 
 		callback: [ self nuevaPregunta ];
