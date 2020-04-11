@@ -10,7 +10,8 @@
 		"sistema",
 		"titulo",
 		"desarrollo",
-		"topicos"
+		"topicos",
+		"navBar"
 	],
 	"name" : "NuevaPreguntaComponent",
 	"type" : "normal"
