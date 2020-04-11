@@ -1,15 +1,7 @@
 rendering
 renderContentOn: aCanvas
-
-	aCanvas 
-		heading 
-		level: 2;
-		with: 'CuOOra'.
-	aCanvas 
-		strong: usuario miNombre;
-		text: ' Log out'.
-	aCanvas break.
-	aCanvas horizontalRule.
+	aCanvas div
+	with: navBar.
 	aCanvas 
 		heading 
 		level:4;
