@@ -28,7 +28,7 @@ renderContentOn: aCanvas
 				value: 'Ingrese los tópicos separados por coma'.
 			aCanvas break.
 			aCanvas button 
-					"callback: [ self validar ];"
+					callback: [ self cancelar ];
 					with: [ aCanvas text:'Cancelar'].
 			aCanvas space.
 			aCanvas submitButton
