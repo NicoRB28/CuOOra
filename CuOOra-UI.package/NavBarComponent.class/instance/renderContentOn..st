@@ -5,6 +5,6 @@ renderContentOn: aCanvas
 		with: 'CuOOra'.
 	aCanvas strong: usuario miNombre.
 	aCanvas anchor
-		callback: [ self call: LoginComponent new ];
+		url: 'CuOOra';
 		with: [ aCanvas text: ' Log out' ].
 	aCanvas horizontalRule
