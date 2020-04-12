@@ -3,6 +3,8 @@ renderContentOn: aCanvas
 	aCanvas
 						emphasis: pregunta titulo;
 						break;
+						emphasis: (pregunta topicos inject: 'Topicos: ' into: [:text :each | text,(each nombre),', '] );
+						break;
 						text: 'Realizada por ';
 						strong: pregunta quienMeCreo miNombre;
 						text: ' | ';
