@@ -1,8 +1,9 @@
 rendering
 renderContentOn: aCanvas
 	aCanvas
-						emphasis: pregunta titulo;
-						break;
+						anchor callback: [ self descripcion ];
+						with:[ aCanvas emphasis: pregunta titulo].
+						aCanvas break;
 						emphasis: (pregunta topicos inject: 'Topicos: ' into: [:text :each | text,(each nombre),', '] );
 						break;
 						text: 'Realizada por ';

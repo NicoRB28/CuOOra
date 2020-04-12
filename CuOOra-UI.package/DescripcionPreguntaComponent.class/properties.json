@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "LayoutComponent",
+	"category" : "CuOOra-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"pregunta",
+		"pregComp"
+	],
+	"name" : "DescripcionPreguntaComponent",
+	"type" : "normal"
+}
