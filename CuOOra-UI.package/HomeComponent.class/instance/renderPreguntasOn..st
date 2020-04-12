@@ -6,4 +6,4 @@ renderPreguntasOn: aCanvas
 	aCanvas
 		unorderedList: [ ((sistema obtenerPreguntasRelevantes: usuario) takeFirst: 5)
 				do:
-					[ :each | aCanvas div with: (PreguntaComponent conPregunta: each) ] ]
+					[ :each | aCanvas div with: (PreguntaComponent conPregunta: each conUsuario: usuario) ] ]

@@ -2,4 +2,4 @@ initialization
 initialize: unaPregunta conUsuario: unUsuario 
 	self initialize: unUsuario.
 	self conPregunta: unaPregunta.
-	pregComp := PreguntaComponent conPregunta: pregunta.
+	pregComp := PreguntaComponent conPregunta: pregunta conUsuario: unUsuario.

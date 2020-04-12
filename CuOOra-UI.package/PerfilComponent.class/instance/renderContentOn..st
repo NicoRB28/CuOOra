@@ -8,4 +8,4 @@ renderContentOn: aCanvas
 	aCanvas
 		unorderedList: [ (sistema preguntasDeUsuario: usuarioPerfil)
 				do:
-					[ :each | aCanvas div with: (PreguntaComponent conPregunta: each) ] ]
+					[ :each | aCanvas div with: (PreguntaComponent conPregunta: each conUsuario: usuario) ] ]
