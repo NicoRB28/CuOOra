@@ -1,15 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "LayoutComponent",
+	"super" : "WAComponent",
 	"category" : "CuOOra-UI",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"pregunta",
-		"pregComp",
-		"respuesta"
+		"pregunta"
 	],
-	"name" : "NuevaRespuestaComponent",
+	"name" : "PreguntaComponent",
 	"type" : "normal"
 }
