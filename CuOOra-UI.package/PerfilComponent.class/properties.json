@@ -1,14 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "WAComponent",
+	"super" : "LayoutComponent",
 	"category" : "CuOOra-UI",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"pregunta",
-		"usuario"
+		"usuarioPerfil"
 	],
-	"name" : "PreguntaComponent",
+	"name" : "PerfilComponent",
 	"type" : "normal"
 }
