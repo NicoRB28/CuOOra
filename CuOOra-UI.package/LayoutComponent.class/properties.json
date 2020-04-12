@@ -1,11 +1,15 @@
 {
 	"commentStamp" : "",
-	"super" : "LayoutComponent",
+	"super" : "WAComponent",
 	"category" : "CuOOra-UI",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "HomeComponent",
+	"instvars" : [
+		"usuario",
+		"sistema",
+		"navBar"
+	],
+	"name" : "LayoutComponent",
 	"type" : "normal"
 }

@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "HomeComponent",
+	"name" : "RespuestasComponent",
 	"type" : "normal"
 }
