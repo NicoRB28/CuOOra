@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "RespuestasComponent",
+	"name" : "NuevaRespuestaComponent",
 	"type" : "normal"
 }
