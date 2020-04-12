@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "LayoutComponent",
+	"category" : "CuOOra-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"usuarioPerfil"
+	],
+	"name" : "PerfilComponent",
+	"type" : "normal"
+}
