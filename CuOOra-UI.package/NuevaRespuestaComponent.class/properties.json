@@ -7,7 +7,6 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"pregunta",
-		"pregComp",
 		"respuesta"
 	],
 	"name" : "NuevaRespuestaComponent",
