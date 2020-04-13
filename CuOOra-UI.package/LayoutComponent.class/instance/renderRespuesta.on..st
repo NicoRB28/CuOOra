@@ -1,7 +1,10 @@
 rendering
 renderRespuesta: unaRespuesta on: aCanvas
-
-		aCanvas emphasis:'Respuesta de ', unaRespuesta usuario miNombre.
+		
+		aCanvas text:'Respuesta de '.
+		aCanvas anchor
+		callback: [ self perfilDe: unaRespuesta quienMeCreo ];
+		with: [ aCanvas strong: unaRespuesta  quienMeCreo miNombre ].
 		aCanvas paragraph with: unaRespuesta texto.
 		aCanvas
 		text: unaRespuesta misLikes size;
