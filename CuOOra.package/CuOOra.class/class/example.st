@@ -1,7 +1,7 @@
 example
 example 
 
-|example lisa bart apu homero marge tLibros coleccionTopicos|
+|example lisa bart apu homero marge tLibros coleccionTopicos preguntaHomero |
 
 example := self new.
 
@@ -21,6 +21,8 @@ example crearPregunta: 'libros para pasar la cuarentena' descripcion:'bla'  topi
 example crearPregunta: 'libros sobre peste' descripcion:'ble'  topico:coleccionTopicos   usuario: homero.
 example crearPregunta: 'libros para pasar un buen rato' descripcion:'bli'  topico:coleccionTopicos   usuario:marge. 
  example crearPregunta: 'Recomienden libros' descripcion:'blo'  topico: coleccionTopicos   usuario:bart.
- example crearPregunta: 'Vamos los libros' descripcion:'blu'  topico:coleccionTopicos   usuario: homero.
+preguntaHomero := example crearPregunta: 'Vamos los libros' descripcion:'blu'  topico:coleccionTopicos   usuario: homero.
 example crearPregunta: 'quiero libros' descripcion:'blx'  topico: coleccionTopicos   usuario:marge.
+example crearRespuesta: 'muy buena pregunta Homero....' usuario: bart  pregunta: preguntaHomero.
+example crearRespuesta: 'eso no es una pregunta....-.-' usuario: lisa pregunta: preguntaHomero.
 ^example. 
