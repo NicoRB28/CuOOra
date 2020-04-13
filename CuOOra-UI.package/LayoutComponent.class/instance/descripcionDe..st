@@ -4,4 +4,4 @@ descripcionDe: unaPregunta
 		call:
 			(DescripcionPreguntaComponent
 				conPregunta: unaPregunta 
-				conUsuario: unaPregunta  quienMeCreo)
+				conUsuario: usuario)
