@@ -6,8 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"pregunta",
-		"pregComp"
+		"pregunta"
 	],
 	"name" : "DescripcionPreguntaComponent",
 	"type" : "normal"
