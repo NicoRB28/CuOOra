@@ -3,9 +3,8 @@ renderContentOn: aCanvas
 	aCanvas div with: navBar.
 	aCanvas heading
 		level: 4;
-		with: 'Preguntas de ' , usuarioPerfil nombre, ' '.
+		with: 'Preguntas de ' , usuarioPerfil miNombre , ' '.
 	self renderFollowOn: aCanvas.
 	aCanvas
-		unorderedList: [ (sistema preguntasDeUsuario: usuarioPerfil)
-				do:
-					[ :each | aCanvas div with: (PreguntaComponent conPregunta: each conUsuario: usuario) ] ]
+		unorderedList: [ (sistema preguntasDeUsuario: usuarioPerfil )
+				do: [ :each | self renderPregunta: each on: aCanvas ] ]
