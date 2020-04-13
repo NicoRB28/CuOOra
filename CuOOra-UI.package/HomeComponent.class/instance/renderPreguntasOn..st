@@ -4,6 +4,4 @@ renderPreguntasOn: aCanvas
 		level: 2;
 		with: 'Ultimas Preguntas'.
 	aCanvas
-		unorderedList: [ ((sistema obtenerPreguntasRelevantes: usuario) takeFirst: 5)
-				do:
-					[ :each | aCanvas div with: (PreguntaComponent conPregunta: each conUsuario: usuario) ] ]
+		unorderedList: [ (sistema obtenerPreguntasRelevantes: usuario ) do: [ :each | self renderPregunta: each on: aCanvas ] ]
