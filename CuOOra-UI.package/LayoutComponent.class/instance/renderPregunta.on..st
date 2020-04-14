@@ -23,4 +23,9 @@ renderPregunta: unaPregunta on: aCanvas
 		text: ' likes | ';
 		text: unaPregunta  misDislikes size;
 		text: ' dislikes';
-		horizontalRule
+		break.
+		aCanvas anchor callback:[self darLike:unaPregunta];
+		with:[ aCanvas text: 'Like'].
+		aCanvas anchor callback:[self darDislike:unaPregunta];
+		with:[ aCanvas text: ' | Dislike'].
+		aCanvas horizontalRule.

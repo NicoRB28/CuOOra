@@ -1,28 +1,29 @@
 example
 example 
 
-|example lisa bart apu homero marge tLibros coleccionTopicos preguntaHomero |
+|juan pedro diego oo1 testDeUnidad smalltalk  example topicosPreguntaPedro topicosPreguntaDiego preguntaPedro preguntaDiego |
 
 example := self new.
 
-tLibros := example agregarTopico: 'libros' descripcion:'libros'.
-example agregarTopico: 'peliculas' descripcion: 'peliculas'.
-coleccionTopicos := OrderedCollection with: tLibros.
+oo1 := example agregarTopico: 'OO1' descripcion: 'temas relacionados con los objetos en la programación'.
+smalltalk := example agregarTopico: 'Smalltalk' descripcion: 'temas relacionados con el lenguaje de programación Smalltalk'.
+testDeUnidad := example agregarTopico: 'Test de unidad' descripcion: 'temas relacionados a los test de unidad'.
 
-lisa := example crearUsuario: 'Lisa' contraseña:'1234'. 
-bart := example crearUsuario: 'Bart' contraseña:'1234'.
-apu := example crearUsuario: 'Apu' contraseña:'1234'.
-homero := example crearUsuario: 'Homero' contraseña:'1234'.
-marge:= example crearUsuario: 'Marge' contraseña:'1234'.
 
-example registrarTopico: tLibros  paraUsuario: lisa.
+topicosPreguntaPedro := OrderedCollection with:oo1 with:testDeUnidad.
+topicosPreguntaDiego := OrderedCollection with:oo1 with: smalltalk .
 
-example crearPregunta: 'libros para pasar la cuarentena' descripcion:'bla'  topico: coleccionTopicos   usuario: bart.
-example crearPregunta: 'libros sobre peste' descripcion:'ble'  topico:coleccionTopicos   usuario: homero.
-example crearPregunta: 'libros para pasar un buen rato' descripcion:'bli'  topico:coleccionTopicos   usuario:marge. 
- example crearPregunta: 'Recomienden libros' descripcion:'blo'  topico: coleccionTopicos   usuario:bart.
-preguntaHomero := example crearPregunta: 'Vamos los libros' descripcion:'blu'  topico:coleccionTopicos   usuario: homero.
-example crearPregunta: 'quiero libros' descripcion:'blx'  topico: coleccionTopicos   usuario:marge.
-example crearRespuesta: 'muy buena pregunta Homero....' usuario: bart  pregunta: preguntaHomero.
-example crearRespuesta: 'eso no es una pregunta....-.-' usuario: lisa pregunta: preguntaHomero.
+pedro := example crearUsuario: 'pedro@cuoora.com' contraseña:'pedro@cuoora.com'. 
+diego := example crearUsuario: 'diego@cuoora.com' contraseña:'diego@cuoora.com'.
+juan := example crearUsuario: 'juan@cuoora.com' contraseña: 'juan@cuoora.com'.
+
+juan seguirA: diego.
+pedro seguirA: juan.
+
+preguntaPedro := example crearPregunta:'¿Para qué sirve el método SetUp?'  descripcion: '' topico: topicosPreguntaPedro   usuario: pedro.
+example crearRespuesta: 'Sirve para instanciar los objetos que son evaluados por el test en un único método y que se ejecute siempre antes de cada test' usuario: diego  pregunta: preguntaPedro.
+
+preguntaDiego := example crearPregunta: '¿Qué significa #messageNotUnderstood?' descripcion: ''  topico: topicosPreguntaDiego   usuario: diego.
+example crearRespuesta: 'Significa que el objeto que recibió el mensaje no encontró ningún metodo para ejecutar en respuesta' usuario:pedro  pregunta: preguntaDiego.
+
 ^example. 
