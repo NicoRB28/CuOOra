@@ -1,6 +1,6 @@
 tests
 testPuntajeUsuario
-	| usuario3 pregunta3 |
+	| usuario3|
 	usuario1 := sistema crearUsuario: 'Ana' contraseña: '111'.
 	usuario3 := sistema crearUsuario: 'Pepe' contraseña: '222'.
 	

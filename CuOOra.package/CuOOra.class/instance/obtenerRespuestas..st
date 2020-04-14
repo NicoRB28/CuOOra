@@ -5,4 +5,5 @@ obtenerRespuestas: unaPregunta
 		ifTrue: [ ordenada := unaPregunta misRespuestas
 				asSortedCollection: [ :e :e2 | e miCalificacionTotal > e2 miCalificacionTotal ].
 			^ ordenada ].
-	^ nil
+	ordenada := OrderedCollection new.
+	^ ordenada

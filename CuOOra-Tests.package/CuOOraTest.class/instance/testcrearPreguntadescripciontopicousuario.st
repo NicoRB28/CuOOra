@@ -5,4 +5,4 @@ testcrearPreguntadescripciontopicousuario
 	self assert: pregunta1 titulo equals: 'que hacer hoy?'.
 	self assert: pregunta1 descripcion equals: 'planes'.
 	self assert: pregunta1 topicos equals: topico1. 
-	self assert: sistema preguntas size equals: 1.
+	self assert: sistema preguntas size equals: 2. "pregunta2 y pregunta1"
