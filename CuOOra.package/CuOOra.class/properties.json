@@ -10,8 +10,7 @@
 	"instvars" : [
 		"usuarios",
 		"topicos",
-		"preguntas",
-		"respuestas"
+		"preguntas"
 	],
 	"name" : "CuOOra",
 	"type" : "normal"
