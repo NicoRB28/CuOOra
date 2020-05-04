@@ -1,3 +1,6 @@
 running
 setUp
-	calificacion := Calificacion new.
+
+	self setUpUsuarios.
+	self setUpCalificaciones.
+	"calificacion := Calificacion new."

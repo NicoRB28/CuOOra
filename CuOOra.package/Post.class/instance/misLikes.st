@@ -1,3 +1,5 @@
 accessing
 misLikes
-	^ likes
+	"^ likes"
+	
+	^votos select: [ :each | each isLike ].

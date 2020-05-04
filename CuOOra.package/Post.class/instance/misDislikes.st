@@ -1,3 +1,4 @@
 accessing
 misDislikes
-	^dislikes
+	"^dislikes."
+	^votos select: [ :each | (each isLike) not ].

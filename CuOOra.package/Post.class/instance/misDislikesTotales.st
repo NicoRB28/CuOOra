@@ -1,3 +1,3 @@
 accessing
 misDislikesTotales
-	^ dislikes size
+	^ (self misDislikes) size

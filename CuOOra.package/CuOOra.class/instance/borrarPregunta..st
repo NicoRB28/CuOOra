@@ -1,5 +1,5 @@
 deleting
 borrarPregunta: unaPregunta
-	self borrarCalificacionPregunta: unaPregunta.
-	self borrarRespuestasPregunta: unaPregunta.
+	
+	unaPregunta eliminarMisRespuestas.
 	preguntas remove: unaPregunta

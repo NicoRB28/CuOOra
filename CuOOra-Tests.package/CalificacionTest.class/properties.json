@@ -8,7 +8,10 @@
 	"instvars" : [
 		"creacion",
 		"usuario",
-		"calificacion"
+		"usuario2",
+		"calificacion",
+		"dislike",
+		"like"
 	],
 	"name" : "CalificacionTest",
 	"type" : "normal"

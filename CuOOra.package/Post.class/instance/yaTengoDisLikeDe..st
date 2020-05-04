@@ -1,6 +1,12 @@
 boolean
 yaTengoDisLikeDe: unUsuario
-	dislikes
+"	dislikes
 		detect: [ :each | each esMiCreador: unUsuario ]
 		ifFound: [ ^ true ].
-	^ false
+	^ false."
+	
+	(self misDislikes) detect: [ :each | each esMiCreador: unUsuario ]
+	ifFound: [ ^true ].
+	^false.
+	
+	

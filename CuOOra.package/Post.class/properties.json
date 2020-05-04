@@ -8,6 +8,7 @@
 	"instvars" : [
 		"creacion",
 		"usuario",
+		"votos",
 		"likes",
 		"dislikes"
 	],
