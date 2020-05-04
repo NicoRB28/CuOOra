@@ -7,5 +7,5 @@ testmiCalificacionTotal
 	rta2 registrarLike: like.
 	rta2 registrarDisLike: dislike2.
 	rta2 registrarDisLike: dislike.
-	self assert: rta2 miCalificacionTotal equals: -1.
+	self assert: rta2 miCalificacionTotal equals: -2.
 	self assert: rta miCalificacionTotal equals: 0.

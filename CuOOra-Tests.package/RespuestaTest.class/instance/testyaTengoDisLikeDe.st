@@ -1,6 +1,8 @@
 as yet unclassified
 testyaTengoDisLikeDe
-	usuario dislikePregunta: rta2.
 	
-	self assert: (rta2 yaTengoDisLikeDe: usuario) equals: true.
-	self assert: (rta2  yaTengoDisLikeDe: usuario2) equals: false.
+	rta registrarDisLike: (Calificacion dislikeConUsuario: usuario).
+
+	
+	self assert: (rta yaTengoDisLikeDe: usuario) equals: true.
+	self assert: (rta  yaTengoDisLikeDe: usuario2) equals: false.
