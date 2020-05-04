@@ -1,6 +1,7 @@
 as yet unclassified
 testyaTengoDisLikeDe
-	usuario dislikePregunta: preguntaLibro.
+	
+	preguntaLibro registrarDisLike: (Calificacion dislikeConUsuario: usuario ).
 	
 	self assert: (preguntaLibro yaTengoDisLikeDe: usuario) equals: true.
 	self assert: (preguntaPelicula  yaTengoDisLikeDe: usuario) equals: false.
