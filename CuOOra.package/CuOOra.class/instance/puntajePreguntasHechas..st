@@ -1,3 +1,3 @@
 behavior
 puntajePreguntasHechas: unUsuario
-	^ (self preguntasDeUsuario: unUsuario) size * 20
+	^ ((self preguntasDeUsuario: unUsuario) sumNumbers: [ :pregunta | pregunta puntaje ])
