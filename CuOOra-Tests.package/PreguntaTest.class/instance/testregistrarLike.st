@@ -1,9 +1,9 @@
 as yet unclassified
 testregistrarLike
 	|like like2 dislike|
-	like := Calificacion conUsuario: usuario.
-	dislike := Calificacion conUsuario: usuario. 
-	like2 := Calificacion conUsuario: usuario2.
+	like := Calificacion likeConUsuario: usuario.
+	dislike := Calificacion dislikeConUsuario: usuario. 
+	like2 := Calificacion likeConUsuario: usuario2.
 	
 	preguntaLibro registrarLike: like2.
 	preguntaLibro registrarDisLike: dislike.

@@ -1,8 +1,8 @@
 as yet unclassified
 testmisLikesTotales
 	|like like2 |
-	like := Calificacion conUsuario: usuario.
-	like2 := Calificacion conUsuario: usuario2.
+	like := Calificacion likeConUsuario: usuario.
+	like2 := Calificacion likeConUsuario: usuario2.
 	
 	preguntaLibro registrarLike: like.
 	preguntaLibro registrarLike: like2.
