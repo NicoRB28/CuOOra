@@ -1,9 +1,8 @@
 behavior
 puntajeRespuestasHechas: unUsuario
-	| respPregUser respUserPU respTotales|
+	| respAPregUser respUserAPregUser respTotales |
 	respTotales := self respuestasUsuario: unUsuario.
-	(respTotales isEmpty) ifTrue: [ ^0 ].
-	respPregUser := (self preguntasDeUsuario: unUsuario)
-		flatCollect: [ :p | p misRespuestas ].
-	respUserPU := respPregUser select: [ :e | e meCreo: unUsuario ].
-	^ (respTotales  size - respUserPU size) * 50
+	respAPregUser := (self preguntasDeUsuario: unUsuario) flatCollect: [ :p | p misRespuestas ].
+	respUserAPregUser := respAPregUser select: [ :e | e meCreo: unUsuario ].
+	
+	^ unUsuario puntajeRespuestasTotales: respTotales Hechas: respUserAPregUser

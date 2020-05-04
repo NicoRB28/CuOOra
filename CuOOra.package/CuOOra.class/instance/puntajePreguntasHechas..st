@@ -1,3 +1,3 @@
 behavior
 puntajePreguntasHechas: unUsuario
-	^ (self preguntasDeUsuario: unUsuario) size * 20
+	^ ( unUsuario puntajePreguntasHechas: (self preguntasDeUsuario: unUsuario) )

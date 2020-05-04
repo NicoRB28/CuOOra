@@ -1,3 +1,5 @@
 accessing
 respuestasUsuario: unUsuario
-	^ respuestas select: [ :each | each meCreo: unUsuario ]
+	|respuestasT|
+	respuestasT := preguntas flatCollect: [ :p | p misRespuestas ].
+	^ (respuestasT select: [ :r | r meCreo: unUsuario])
