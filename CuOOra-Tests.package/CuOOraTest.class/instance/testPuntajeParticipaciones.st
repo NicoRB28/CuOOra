@@ -1,5 +1,5 @@
 as yet unclassified
-testpuntajeParticipaciones
+testPuntajeParticipaciones
 	|pregunta3|
 	usuario1 := sistema crearUsuario: 'Juan' contraseña: '112358'.
 	usuario2 := sistema crearUsuario: 'Ana' contraseña: '1357'.

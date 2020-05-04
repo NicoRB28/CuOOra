@@ -1,5 +1,5 @@
 as yet unclassified
-testexisteUsuario
+testExisteUsuario
 
 	usuario1 := sistema crearUsuario: 'pepi' contraseña: '111'.
 	

@@ -1,5 +1,5 @@
 as yet unclassified
-testpreguntasDeUsuario
+testPreguntasDeUsuario
 	| pregunta3 |
 	usuario1 := sistema crearUsuario: 'usuario1' contraseña: '111'.
 	pregunta3 := sistema
