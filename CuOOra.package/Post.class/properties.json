@@ -8,9 +8,7 @@
 	"instvars" : [
 		"creacion",
 		"usuario",
-		"votos",
-		"likes",
-		"dislikes"
+		"votos"
 	],
 	"name" : "Post",
 	"type" : "normal"
