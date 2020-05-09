@@ -1,4 +1,6 @@
 as yet unclassified
 crearRespuesta 
 	(respuesta isEmpty)
-	ifFalse: [sistema crearRespuesta: respuesta usuario: usuario pregunta: pregunta] 
+	ifFalse: [
+		pregunta registrarRespuesta: (Respuesta conTexto: respuesta yUsuario: usuario )].
+"		sistema crearRespuesta: respuesta usuario: usuario pregunta: pregunta] "
