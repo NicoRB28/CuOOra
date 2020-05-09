@@ -1,3 +1,3 @@
 behavior
 puntajeUsuario: unUsuario 
-	^ (self puntajeParticipaciones: unUsuario) + (self puntajePreguntasHechas: unUsuario) + (self puntajeRespuestasHechas: unUsuario)
+	^(unUsuario calcularMiPuntaje: (self preguntasDeUsuario: unUsuario) ycon:  (self respuestasUsuario: unUsuario) menos: (self respuestasASiMismo: unUsuario))
