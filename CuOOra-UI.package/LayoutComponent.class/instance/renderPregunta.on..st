@@ -19,10 +19,10 @@ renderPregunta: unaPregunta on: aCanvas
 		text: unaPregunta  misRespuestas size;
 		text: ' respuestas';
 		break;
-		text: unaPregunta  misLikes size;
+		text: unaPregunta  misLikesTotales ;
 		"deberia cambiar a misLikesTotales"
 		text: ' likes | ';
-		text: unaPregunta  misDislikes size;
+		text: unaPregunta  misDislikesTotales ;
 				"deberia cambiar a misDisLikesTotales"
 		text: ' dislikes';
 		break.

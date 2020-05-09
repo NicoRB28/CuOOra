@@ -7,9 +7,9 @@ renderRespuesta: unaRespuesta on: aCanvas
 		with: [ aCanvas strong: unaRespuesta  quienMeCreo miNombre ].
 		aCanvas paragraph with: unaRespuesta texto.
 		aCanvas
-		text: unaRespuesta misLikes size;
+		text: unaRespuesta misLikesTotales ;
 		text: ' likes | ';
-		text: unaRespuesta misDislikes size;
+		text: unaRespuesta misDislikesTotales;
 		text: ' dislikes';
 		break.
 		aCanvas anchor callback:[self darLike:unaRespuesta];

@@ -8,6 +8,7 @@ crearPregunta
 			topicosParaAgregar := sistema topicosMatchingNamePart: topicos.	
 				
 										
-			sistema crearPregunta: titulo descripcion: desarrollo  topico: topicosParaAgregar usuario: usuario ].
+"			sistema crearPregunta: titulo descripcion: desarrollo  topico: topicosParaAgregar usuario: usuario ]."
+			sistema agregarPregunta: (Pregunta conTitulo: titulo descripcion: desarrollo  topico: topicosParaAgregar  usuario: usuario )].
 		self answer.
 	
