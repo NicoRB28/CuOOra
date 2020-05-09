@@ -35,4 +35,4 @@ example agregarPregunta: preguntaDiego.
 respuestaPedro := Respuesta conTexto: 'Significa que el objeto que recibió el mensaje no encontró ningún metodo para ejecutar en respuesta' yUsuario: pedro.
 preguntaDiego registrarRespuesta: respuestaPedro.
 
-^example. 
+^example.
