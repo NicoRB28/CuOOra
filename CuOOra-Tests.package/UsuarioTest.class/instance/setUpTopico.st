@@ -8,4 +8,5 @@ setUpTopico
 		descripcion: 'topico para hablar todo sobre peliculas'.
 	topico3 := Topico
 		conNombre: 'Dinosaurios'
-		descripcion: 'Todo sobre dinosaurios'
+		descripcion: 'Todo sobre Dinosaurios'.
+	

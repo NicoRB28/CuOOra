@@ -1,4 +1,5 @@
 as yet unclassified
 testMisTopicos
-	self assert: preguntaLibro misTopicos size equals: 2.
-	self assert: preguntaPelicula misTopicos size equals: 1
+	self assert: (preguntaLibro misTopicos includes: topicoPreguntaLibro).
+	self assert: (preguntaLibro misTopicos includes: topicoPreguntaLibroDos).
+	self assert: (preguntaPelicula misTopicos includes: topicoPreguntaPelicula)
