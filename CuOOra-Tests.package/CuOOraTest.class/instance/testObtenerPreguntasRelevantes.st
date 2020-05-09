@@ -1,27 +1,27 @@
 tests
 testObtenerPreguntasRelevantes
 
-| topicosParaTestear |
 
-sistemaParaTestear := CuOOra new.
 
-topicoSimpsons := sistemaParaTestear agregarTopico: 'actividades' descripcion: 'recomendaciones de actividades'.
-topicosParaTestear  := OrderedCollection with:topicoSimpsons .
+sistema agregarTopico: topico1.
 
-bart := sistemaParaTestear crearUsuario: 'Bart' contraseña: '1234'.
-homero := sistemaParaTestear crearUsuario: 'Homero' contraseña:'1234'.
-apu := sistemaParaTestear crearUsuario: 'Apu' contraseña:  '1234'.
+sistema agregarUsuario: usuario1.
+sistema agregarUsuario: usuario2.
 
-preguntaBart := sistemaParaTestear crearPregunta: 'que hago en cuarentena?' descripcion:'me aburro'  topico: topicosParaTestear    usuario: bart.
-respuestaApu := sistemaParaTestear crearRespuesta: 'pontes a leer un libros' usuario:apu  pregunta: preguntaBart .
-respuestaHomero := sistemaParaTestear crearRespuesta: 'estudia' usuario:homero  pregunta:preguntaBart.
-self assert: ((sistemaParaTestear obtenerPreguntasRelevantes: bart)size ) equals:0. 
-self assert:((sistemaParaTestear obtenerPreguntasRelevantes: homero)size) equals:0.
+sistema agregarPregunta: pregunta1.
+sistema agregarPregunta: pregunta2.
 
-homero registrarTopico: topicoSimpsons.
-self assert: ((sistemaParaTestear obtenerPreguntasRelevantes: homero)size) equals: 1.
-self assert: ((sistemaParaTestear obtenerPreguntasRelevantes: homero)includes: preguntaBart) equals: true.
-self deny: ((sistemaParaTestear obtenerPreguntasRelevantes: bart)includes: pregunta1) equals: true.
-self assert:((sistemaParaTestear obtenerPreguntasRelevantes: apu) size) equals: 0.
+pregunta1 registrarRespuesta: respuesta1.
+pregunta1 registrarRespuesta: respuesta2.
+
+
+self assert: ((sistema obtenerPreguntasRelevantes: usuario1)size ) equals:0. 
+self assert:((sistema obtenerPreguntasRelevantes: usuario2)size) equals:0.
+
+usuario2 registrarTopico: topico1.
+self assert: ((sistema obtenerPreguntasRelevantes: usuario2)size) equals: 1.
+self assert: ((sistema obtenerPreguntasRelevantes: usuario2)includes: pregunta1) equals: true.
+self deny: ((sistema obtenerPreguntasRelevantes: usuario1)includes: pregunta1) equals: true.
+self assert:((sistema obtenerPreguntasRelevantes: usuario1) size) equals: 0.
 
 

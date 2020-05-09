@@ -7,26 +7,14 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"sistema",
-		"usuarios",
 		"usuario1",
 		"usuario2",
-		"topicos",
 		"topico1",
 		"topico2",
-		"preguntas",
 		"pregunta1",
 		"pregunta2",
-		"respuestas",
 		"respuesta1",
-		"respuesta2",
-		"sistemaParaTestear",
-		"topicoSimpsons",
-		"bart",
-		"homero",
-		"apu",
-		"preguntaBart",
-		"respuestaApu",
-		"respuestaHomero"
+		"respuesta2"
 	],
 	"name" : "CuOOraTest",
 	"type" : "normal"

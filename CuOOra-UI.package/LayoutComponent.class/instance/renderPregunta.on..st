@@ -20,8 +20,10 @@ renderPregunta: unaPregunta on: aCanvas
 		text: ' respuestas';
 		break;
 		text: unaPregunta  misLikes size;
+		"deberia cambiar a misLikesTotales"
 		text: ' likes | ';
 		text: unaPregunta  misDislikes size;
+				"deberia cambiar a misDisLikesTotales"
 		text: ' dislikes';
 		break.
 		aCanvas anchor callback:[self darLike:unaPregunta];
