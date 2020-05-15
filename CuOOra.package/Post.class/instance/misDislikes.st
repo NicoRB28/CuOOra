@@ -1,6 +1,3 @@
 accessing
 misDislikes
-	"^dislikes."
-	
-	^votos reject: [ :each | each isLike].
-	
+	^ votos reject: [ :each | each isLike ]
