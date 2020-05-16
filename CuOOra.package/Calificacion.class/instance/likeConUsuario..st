@@ -2,4 +2,4 @@ creating
 likeConUsuario: unUsuario
 
 	usuario := unUsuario.
-	self like.
+	isLike := true.

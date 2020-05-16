@@ -2,6 +2,7 @@ behavior
 registrarLike: unLike
 	
 	(self yaTengoLikeDe: unLike miCreadorEs)
+	ifTrue:[^self]
 		ifFalse: [ votos add: unLike.
 			(self yaTengoDisLikeDe: unLike miCreadorEs)
 				ifTrue: [ votos
